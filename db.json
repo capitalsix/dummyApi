@@ -1,0 +1,42 @@
+{
+  "organizations": [
+    {
+      "id": "org_123",
+      "name": "Komunitas Salihara Arts",
+      "profile": "Deskripsi komunitas",
+      "type": "komunitas",
+      "discipline": ["musik", "tari"],
+      "status": "aktif",
+      "address": {
+        "street": "Jl. Contoh No.10",
+        "city": "Jakarta Selatan",
+        "province": "DKI Jakarta",
+        "postal_code": "12345",
+        "latitude": -6.2,
+        "longitude": 106.8
+      },
+      "contacts": {
+        "phone": "021-1234567",
+        "email": "info@salihara.org",
+        "website": "https://salihara.org",
+        "social_media": {
+          "instagram": "@salihara",
+          "twitter": "@salihara_id"
+        }
+      },
+      "media": [
+        {
+          "url": "https://example.com/image1.jpg",
+          "type": "image",
+          "alt_text": "Gedung utama komunitas"
+        }
+      ],
+      "facilities": ["parkir", "kursi roda", "toilet"],
+      "accessibility": "ramah kursi roda",
+      "operating_hours": [
+        { "day": "monday", "open_time": "09:00", "close_time": "17:00" },
+        { "day": "tuesday", "open_time": "09:00", "close_time": "17:00" }
+      ]
+    }
+  ]
+}
